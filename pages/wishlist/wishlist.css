@@ -1,0 +1,11 @@
+@import url(../../basic.css);
+main {
+    margin-top: 2rem;
+}
+
+.wishlist-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+    justify-content: center;
+}
