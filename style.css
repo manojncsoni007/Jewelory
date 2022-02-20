@@ -1,0 +1,10 @@
+@import url(./basic.css);
+#header {
+    background-color: #ffffff;
+    color: black;
+}
+
+.search-bar input {
+    width: 15rem;
+    padding: 0.5rem 0.5rem;
+}
