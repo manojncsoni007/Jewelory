@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jewelory</title>
     <link rel="stylesheet" href="../../style.css">
-    <link rel="stylesheet" href="./wishlist.css">
+    <link rel="stylesheet" href="./product-listing.css">
     <link rel="stylesheet" href="https://aems-ui.netlify.app/aems.css" />
     <script src="https://kit.fontawesome.com/e24bb32a8e.js" crossorigin="anonymous"></script>
 
@@ -45,96 +45,155 @@
         </div>
     </nav>
 
-    <main>
-        <h3 class="text-center">My Wishlist</h3>
-        <div class="wishlist-container">
-            <div class="card">
-                <span class="card-badge flex-center"><i class="far fa-heart fa-2x"></i></span>
-                <div class="card-img">
-                    <img id="radius" src="../../assets/gr2.png" alt="">
+    <div class="product-listing-container">
+        <div class="product-listing-sidebar">
+            <aside class="sidebar">
+                <div class="space-between">
+                    <p class="text-l"><b>Filter</b></p>
+                    <a href="">Clear</a>
                 </div>
-                <div class="card-header">
-                    <h4>Classic Ruby Ring</h4>
-                    <h4>₹46,838</h4>
-                </div>
-                <div class="card-footer">
-                    <button><a href=""><b>Add to cart</b></a> </button>
-                </div>
-            </div>
 
-            <div class="card">
-                <span class="card-badge flex-center"><i class="far fa-heart fa-2x"></i></span>
-                <div class="card-img">
-                    <img id="radius" src="../../assets/gr2.png" alt="">
+                <div class="filter-group">
+                    <p class="text-m"><b>Sort</b></p>
+                    <div class="space-between">
+                        <input type="radio" name="price" id="filter-price" />
+                        <label>Price (Low to High)</label>
+                    </div>
+                    <div class="space-between">
+                        <input type="radio" name="price" id="filter-price" />
+                        <label>Price (High to Low)</label>
+                    </div>
                 </div>
-                <div class="card-header">
-                    <h4>Classic Ruby Ring</h4>
-                    <h4>₹46,838</h4>
+                <div class="filter-group">
+                    <p class="text-m"><b>Metal</b></p>
+                    <div class="space-between">
+                        <input type="checkbox" name="metal" id="filter-metal" />
+                        <label>Gold</label>
+                    </div>
+                    <div class="space-between">
+                        <input type="checkbox" name="metal" id="filter-metal" />
+                        <label>Silver</label>
+                    </div>
+                    <div class="space-between">
+                        <input type="checkbox" name="metal" id="filter-metal" />
+                        <label>Platinum</label>
+                    </div>
                 </div>
-                <div class="card-footer">
-                    <button><a href=""><b>Add to cart</b></a> </button>
+                <div class="filter-group">
+                    <p class="text-m"><b>Category</b></p>
+                    <div class="space-between">
+                        <input type="checkbox" name="Category" id="filter-category" />
+                        <label>Woman's Ring</label>
+                    </div>
+                    <div class="space-between">
+                        <input type="checkbox" name="Category" id="filter-category" />
+                        <label>Men's Ring</label>
+                    </div>
                 </div>
-            </div>
+                <div class="filter-group">
+                    <p class="text-m"><b>Rating</b></p>
+                    <div class="space-between">
+                        <input type="radio" name="rating" id="filter-rating" />
+                        <label for="">4 Stars & above</label>
+                    </div>
+                    <div class="space-between">
+                        <input type="radio" name="rating" id="filter-rating" />
+                        <label for="">3 Stars & above</label>
+                    </div>
+                    <div class="space-between">
+                        <input type="radio" name="rating" id="filter-rating" />
+                        <label for="">2 Stars & above</label>
+                    </div>
+                    <div class="space-between">
+                        <input type="radio" name="rating" id="filter-rating" />
+                        <label for="">1 Stars & above</label>
+                    </div>
 
-            <div class="card">
-                <span class="card-badge flex-center"><i class="far fa-heart fa-2x"></i></span>
-                <div class="card-img">
-                    <img id="radius" src="../../assets/gr2.png" alt="">
                 </div>
-                <div class="card-header">
-                    <h4>Classic Ruby Ring</h4>
-                    <h4>₹46,838</h4>
-                </div>
-                <div class="card-footer">
-                    <button><a href=""><b>Add to cart</b></a> </button>
-                </div>
-            </div>
 
-            <div class="card">
-                <span class="card-badge flex-center"><i class="far fa-heart fa-2x"></i></span>
-                <div class="card-img">
-                    <img id="radius" src="../../assets/gr2.png" alt="">
-                </div>
-                <div class="card-header">
-                    <h4>Classic Ruby Ring</h4>
-                    <h4>₹46,838</h4>
-                </div>
-                <div class="card-footer">
-                    <button><a href=""><b>Add to cart</b></a> </button>
-                </div>
-            </div>
-
-            <div class="card">
-                <span class="card-badge flex-center"><i class="far fa-heart fa-2x"></i></span>
-                <div class="card-img">
-                    <img id="radius" src="../../assets/gr2.png" alt="">
-                </div>
-                <div class="card-header">
-                    <h4>Classic Ruby Ring</h4>
-                    <h4>₹46,838</h4>
-                </div>
-                <div class="card-footer">
-                    <button><a href=""><b>Add to cart</b></a> </button>
-                </div>
-            </div>
-
-            <div class="card">
-                <span class="card-badge flex-center"><i class="far fa-heart fa-2x"></i></span>
-                <div class="card-img">
-                    <img id="radius" src="../../assets/gr2.png" alt="">
-                </div>
-                <div class="card-header">
-                    <h4>Classic Ruby Ring</h4>
-                    <h4>₹46,838</h4>
-                </div>
-                <div class="card-footer">
-                    <button><a href=""><b>Add to cart</b></a> </button>
-                </div>
-            </div>
-
+            </aside>
         </div>
-    </main>
-
+        <div class="product-listing-main">
+            <div class="card">
+                <span class="card-badge flex-center"><i class="far fa-heart fa-2x"></i></span>
+                <div class="card-img">
+                    <img id="radius" src="../../assets/gr2.png" alt="">
+                </div>
+                <div class="card-header">
+                    <h4>Classic Ruby Ring</h4>
+                    <h4>₹46,838</h4>
+                </div>
+                <div class="card-footer">
+                    <button><a href=""><b>Add to cart</b></a> </button>
+                </div>
+            </div>
+            <div class="card">
+                <span class="card-badge flex-center"><i class="far fa-heart fa-2x"></i></span>
+                <div class="card-img">
+                    <img id="radius" src="../../assets/gr2.png" alt="">
+                </div>
+                <div class="card-header">
+                    <h4>Classic Ruby Ring</h4>
+                    <h4>₹46,838</h4>
+                </div>
+                <div class="card-footer">
+                    <button><a href=""><b>Add to cart</b></a> </button>
+                </div>
+            </div>
+            <div class="card">
+                <span class="card-badge flex-center"><i class="far fa-heart fa-2x"></i></span>
+                <div class="card-img">
+                    <img id="radius" src="../../assets/gr2.png" alt="">
+                </div>
+                <div class="card-header">
+                    <h4>Classic Ruby Ring</h4>
+                    <h4>₹46,838</h4>
+                </div>
+                <div class="card-footer">
+                    <button><a href=""><b>Add to cart</b></a> </button>
+                </div>
+            </div>
+            <div class="card">
+                <span class="card-badge flex-center"><i class="far fa-heart fa-2x"></i></span>
+                <div class="card-img">
+                    <img id="radius" src="../../assets/gr2.png" alt="">
+                </div>
+                <div class="card-header">
+                    <h4>Classic Ruby Ring</h4>
+                    <h4>₹46,838</h4>
+                </div>
+                <div class="card-footer">
+                    <button><a href=""><b>Add to cart</b></a> </button>
+                </div>
+            </div>
+            <div class="card">
+                <span class="card-badge flex-center"><i class="far fa-heart fa-2x"></i></span>
+                <div class="card-img">
+                    <img id="radius" src="../../assets/gr2.png" alt="">
+                </div>
+                <div class="card-header">
+                    <h4>Classic Ruby Ring</h4>
+                    <h4>₹46,838</h4>
+                </div>
+                <div class="card-footer">
+                    <button><a href=""><b>Add to cart</b></a> </button>
+                </div>
+            </div>
+            <div class="card">
+                <span class="card-badge flex-center"><i class="far fa-heart fa-2x"></i></span>
+                <div class="card-img">
+                    <img id="radius" src="../../assets/gr2.png" alt="">
+                </div>
+                <div class="card-header">
+                    <h4>Classic Ruby Ring</h4>
+                    <h4>₹46,838</h4>
+                </div>
+                <div class="card-footer">
+                    <button><a href=""><b>Add to cart</b></a> </button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
