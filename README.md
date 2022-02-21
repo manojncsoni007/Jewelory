@@ -8,7 +8,8 @@
 - Product Listing Page
 - Filters by:
   - Price
-  - Brand
+  - Metal
+  - Category
   - Ratings
 - Cart Management
 - Wishlist Management
