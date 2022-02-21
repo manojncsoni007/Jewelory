@@ -76,13 +76,12 @@
         flex-direction: column
     }
     
-    .flex-row {
+    .flex {
         display: flex;
-        flex-direction: row;
     }
     
     .border-bottom {
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid var(--gray);
     }
     
     .space-between {
