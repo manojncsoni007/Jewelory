@@ -75,3 +75,18 @@
         display: flex;
         flex-direction: column
     }
+    
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .border-bottom {
+        border-bottom: 1px solid gray;
+    }
+    
+    .space-between {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }

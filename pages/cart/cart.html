@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="./cart.css">
+    <link rel="stylesheet" href="https://aems-ui.netlify.app/aems.css" />
+    <script src="https://kit.fontawesome.com/e24bb32a8e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="navbar" id="header">
+        <div class="navbar-title">
+            <a href="../../index.html">JEWELORY</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" name="search" placeholder="🔍 Search">
+        </div>
+        <div class="navbar-menu flex-center">
+            <a href="">
+                <i class="fa fa-user"></i>
+                <span>Login</span>
+            </a>
+
+            <a href="../wishlist/wishlist.html">
+                <div class="badge-on-icon">
+                    <i class="fa fa-heart icon-stroke fa-1x"> </i>
+                    <span class="badge badge-sm center">0</span>
+                </div>
+            </a>
+            <a href="../cart/cart.html">
+                <div class="badge-on-icon">
+                    <i class=" fas fa-shopping-cart fa-1x"></i>
+                    <span class="badge badge-sm center">0</span>
+                </div>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <h3 class="text-center">MY CART</h3>
+        <div class="cart-container">
+            <div class="horizontal-card">
+                <div class="card-img">
+                    <img class="card-img" src="../../assets/gr5.jpg" alt="">
+                </div>
+                <div class="card-header">
+                    <div>
+                        <h4>Classic Ruby Ring</h4>
+                        <h5>₹46,838</h5>
+                    </div>
+                    <div>
+                        <button class="header-btn">Remove from wishlist</button>
+                        <button class="header-btn">Remove from cart</button>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <p class="text-l"><b>Price Details</b></p>
+                    <div class="price-detail">
+                        <div class="price-detail-list">
+                            <p class="text-m">Price (2 items)</p>
+                            <p class="text-m">₹40000</p>
+                        </div>
+                        <div class="price-detail-list">
+                            <p class="text-m">Discount</p>
+                            <p class="text-m"> -₹10000</p>
+                        </div>
+                        <div class="price-detail-list">
+                            <p class="text-m">Delivery Charges</p>
+                            <p class="text-m">₹500</p>
+                        </div>
+                    </div>
+                    <div class="total-amount">
+                        <p class="text-m"><b>Total Amount</b></p>
+                        <p class="text-m"><b>₹3500</b></p>
+                    </div>
+
+                    <p class="text-m text-center">you will save ₹1000 on this order</p>
+                    <button class="card-btn">Place Order</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </main>
+
+</body>
+
+</html>
