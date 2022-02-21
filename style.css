@@ -4,7 +4,73 @@
     color: black;
 }
 
+main {
+    margin: 2rem 4rem;
+}
+
 .search-bar input {
     width: 25rem;
     padding: 0.5rem 0.5rem;
+}
+
+.homepage-category {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.category-item {
+    width: 10rem;
+    height: 10rem;
+    margin: 0 auto;
+    border-radius: 0.8rem;
+    overflow: hidden;
+}
+
+.category-item image {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.overlay-text {
+    color: black;
+}
+
+.textoverlay-container {
+    position: relative;
+    background-color: var(--gray);
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.banner {
+    overflow: hidden;
+    margin: 2rem;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.arrival {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.arrival a {
+    text-decoration: none;
+    display: flex;
+    color: inherit;
+}
+
+.arrival-item img {
+    width: 100%;
+    height: auto;
 }
