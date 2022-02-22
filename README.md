@@ -3,7 +3,8 @@
 
 [Visit Site](https://jewelory.netlify.app/)
 
-##Features (Screen Only)
+## Features (Screen Only)
+
 - Home Page
 - Product Listing Page
 - Filters by:
