@@ -26,6 +26,7 @@ main {
     margin: 0 auto;
     border-radius: 0.8rem;
     overflow: hidden;
+    position: relative;
 }
 
 .category-item image {
@@ -35,12 +36,15 @@ main {
 }
 
 .overlay-text {
+    width: 50%;
     color: black;
+    padding: 5px;
+    background-color: var(--lightblue);
+    color: var(--white);
 }
 
 .textoverlay-container {
-    position: relative;
-    background-color: var(--gray);
+    position: absolute;
     z-index: 2;
     top: 0;
     bottom: 0;
